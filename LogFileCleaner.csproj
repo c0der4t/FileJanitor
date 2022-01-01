@@ -1,0 +1,37 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net5.0</TargetFramework>
+    <AssemblyName>LogFileCleaner</AssemblyName>
+    <StartupObject>LogFileCleaner.Program</StartupObject>
+    <RunPostBuildEvent>Always</RunPostBuildEvent>
+    <ApplicationIcon>logo.ico</ApplicationIcon>
+    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+    <Authors>Ekron Digital Solutions</Authors>
+    <Description>A small utility used to clean those pesky files other applications leave to grow to infinity.</Description>
+    <Copyright>Ekron Digital Solutions pty (Ltd), 2022</Copyright>
+    <PackageLicenseExpression />
+    <PackageLicenseFile>license.txt</PackageLicenseFile>
+    <PackageProjectUrl>https://www.ekronds.co.za</PackageProjectUrl>
+    <PackageIcon>logo.png</PackageIcon>
+    <PackageIconUrl />
+    <RepositoryUrl>https://github.com/c0der4t/FileJanitor</RepositoryUrl>
+    <RepositoryType>Public</RepositoryType>
+    <PackageReleaseNotes>A small utility used to clean those pesky files other applications leave to grow to infinity.</PackageReleaseNotes>
+    <SignAssembly>false</SignAssembly>
+    <DelaySign>false</DelaySign>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="license.txt">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+    <None Include="rsc\logo.png">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>
